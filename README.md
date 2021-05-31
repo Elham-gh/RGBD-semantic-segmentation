@@ -94,7 +94,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |      **D-depth-reg**       |    66.7     |    46.3     |    34.8    |       50.6       | RGBD  |                 |     PRL     | 2018 |
 |         **PU-Loop**        |    72.1     |             |    44.5    |                  |  RGB  |                 |    CVPR     | 2018 |
 |         **C-DCNN**         |     69      |    50.8     |    39.8    |                  |  RGB  |                 |    TNNLS    | 2018 |
-|          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  |                 |    CVPR     | 2019 |
+|          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  | code available  |    CVPR     | 2019 |
 |         **CTS-IM**         |    76.3     |             |    50.6    |                  | RGBD  |                 |    ICIP     | 2019 |
 |          **PAP**           |    76.2     |    62.5     |    50.4    |                  |  RGB  |                 |    CVPR     | 2019 |
 |     **KIL-ResNet101**      |    75.1     |    58.4     |    50.2    |                  |  RGB  |                 |    ACPR     | 2019 |
@@ -122,7 +122,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |         **CANet**          |    76.6     |    63.8     |    51.2    |                  | RGBD  |                 |    ACCV     | 2020 |
 |     **CEN(ResNet152)**     |    77.7     |    65.0     |    52.5    |                  | RGBD  |                 |   NeurIPS   | 2020 |
 |         **ESANet**         |             |             |    50.5    |                  | RGBD  |                 |    ICRA     | 2021 |
-|     **LWM(ResNet152)**     |    81.46    |    65.24    |    51.51   |                  | RGB   |                 |     TMM     | 2021 |
+|     **LWM(ResNet152)**     |    81.46    |    65.24    |    51.51   |                  | RGB   |    no code      |     TMM     | 2021 |
 |     **GLPNet(ResNet101)**  |    79.1     |    66.6     |    54.6    |                  | RGBD  |                 |    arXiv    | 2021 |
 | **ESOSD-Net(Xception-65)** |    73.3     |    64.7     |    45.0    |                  | RGB   |                 |    arXiv    | 2021 |
 |    **NANet(ResNet101)**    |    77.9     |             |    52.3    |                  | RGBD  |                 |  IEEE SPL   | 2021 |
