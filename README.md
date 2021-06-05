@@ -94,7 +94,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |      **D-depth-reg**       |    66.7     |    46.3     |    34.8    |       50.6       | RGBD  |                 |     PRL     | 2018 |
 |         **PU-Loop**        |    72.1     |             |    44.5    |                  |  RGB  |                 |    CVPR     | 2018 |
 |         **C-DCNN**         |     69      |    50.8     |    39.8    |                  |  RGB  |                 |    TNNLS    | 2018 |
-|          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  | code available  |    CVPR     | 2019 |
+|          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  |         1       |    CVPR     | 2019 |
 |         **CTS-IM**         |    76.3     |             |    50.6    |                  | RGBD  |                 |    ICIP     | 2019 |
 |          **PAP**           |    76.2     |    62.5     |    50.4    |                  |  RGB  |                 |    CVPR     | 2019 |
 |     **KIL-ResNet101**      |    75.1     |    58.4     |    50.2    |                  |  RGB  |                 |    ACPR     | 2019 |
@@ -106,27 +106,27 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |      **MMAF-Net-152**      |    72.2     |    59.2     |    44.8    |                  | RGBD  |                 |    arXiv    | 2019 |
 |         **RTJ-AA**         |             |             |     42     |                  |  RGB  |                 |    ICRA     | 2019 |
 |      **JTRL-ResNet50**     |    81.3     |    60.0     |    50.3    |                  |  RGB  |                 |    TPAMI    | 2019 |
-|         **SGNet**          |    76.8     |    63.1     |     51     |                  | RGBD  |                 |     TIP     | 2020 |
+|         **SGNet**          |    76.8     |    63.1     |     51     |                  | RGBD  |       11        |     TIP     | 2020 |
 |     **SCN-ResNet101**      |             |             |    48.3    |                  | RGBD  |                 |    TCYB     | 2020 |
 | **RefineNet-Res152-Pool4** |    74.4     |    59.6     |    47.6    |                  |  RGB  |                 |    TPAMI    | 2020 |
 |         **TSNet**          |    73.5     |    59.6     |    46.1    |                  | RGBD  |                 |   IEEE IS   | 2020 |
-|     **PSD-ResNet50**       |    77.0     |    58.6     |    51.0    |                  |  RGB  |                 |    CVPR     | 2020 |
+|     **PSD-ResNet50**       |    77.0     |    58.6     |    51.0    |                  |  RGB  |       11        |    CVPR     | 2020 |
 |     **Malleable 2.5D**     |    76.9     |             |    50.9    |                  | RGBD  |                 |    ECCV     | 2020 |
-|      **BCMFP+SA-Gate**     |    77.9     |             |    52.4    |                  | RGBD  |                 |    ECCV     | 2020 |
+|      **BCMFP+SA-Gate**     |    77.9     |             |    52.4    |                  | RGBD  |        6        |    ECCV     | 2020 |
 |         **MTI-Net**        |    75.3     |    62.9     |    49.0    |                  |  RGB  |                 |    ECCV     | 2020 |
 |       **VCD+RedNet**       |             |    63.5     |    50.7    |                  | RGBD  |                 |    CVPR     | 2020 |
-|       **VCD+ACNet**        |             |    64.4     |    51.9    |                  | RGBD  |                 |    CVPR     | 2020 |
+|       **VCD+ACNet**        |             |    64.4     |    51.9    |                  | RGBD  |        8        |    CVPR     | 2020 |
 |          **SANet**         |    75.9     |             |    50.7    |                  | RGB   |                 |    arXiv    | 2020 |
 |**Zig-Zag Net (ResNet152)** |    77.0     |    64.0     |    51.2    |                  | RGBD  |                 |    TPAMI    | 2020 |
 |        **MCN-DRM**         |             |    56.1     |    43.1    |                  | RGBD  |                 |    ICNSC    | 2020 |
-|         **CANet**          |    76.6     |    63.8     |    51.2    |                  | RGBD  |                 |    ACCV     | 2020 |
-|     **CEN(ResNet152)**     |    77.7     |    65.0     |    52.5    |                  | RGBD  |                 |   NeurIPS   | 2020 |
+|         **CANet**          |    76.6     |    63.8     |    51.2    |                  | RGBD  |        10       |    ACCV     | 2020 |
+|     **CEN(ResNet152)**     |    77.7     |    65.0     |    52.5    |                  | RGBD  |        5        |   NeurIPS   | 2020 |
 |         **ESANet**         |             |             |    50.5    |                  | RGBD  |                 |    ICRA     | 2021 |
-|     **LWM(ResNet152)**     |    81.46    |    65.24    |    51.51   |                  | RGB   |    no code      |     TMM     | 2021 |
-|     **GLPNet(ResNet101)**  |    79.1     |    66.6     |    54.6    |                  | RGBD  |                 |    arXiv    | 2021 |
+|     **LWM(ResNet152)**     |    81.46    |    65.24    |    51.51   |                  | RGB   |        9        |     TMM     | 2021 |
+|     **GLPNet(ResNet101)**  |    79.1     |    66.6     |    54.6    |                  | RGBD  |        2        |    arXiv    | 2021 |
 | **ESOSD-Net(Xception-65)** |    73.3     |    64.7     |    45.0    |                  | RGB   |                 |    arXiv    | 2021 |
-|    **NANet(ResNet101)**    |    77.9     |             |    52.3    |                  | RGBD  |                 |  IEEE SPL   | 2021 |
-|      **InverseForm**       |    78.1     |             |    53.1    |                  | RGB   |                 |    CVPR     | 2021 |
+|    **NANet(ResNet101)**    |    77.9     |             |    52.3    |                  | RGBD  |        7        |  IEEE SPL   | 2021 |
+|      **InverseForm**       |    78.1     |             |    53.1    |                  | RGB   |        3        |    CVPR     | 2021 |
 
 ### SUN RGB-D
 
